@@ -66,7 +66,7 @@ fun FormDataDiri(modifier: Modifier) {
                             textJK = item
                         }
                     )
-
+                    Text(item)
                 }
             }
         }
