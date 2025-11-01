@@ -20,7 +20,10 @@ class MainActivity : ComponentActivity() {
         setContent {
             UserInputTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    FormDataDiri(
+//                    FormDataDiri(
+//                        modifier = Modifier.padding(innerPadding)
+//                    )
+                    FormDaftar(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
